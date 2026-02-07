@@ -55,7 +55,7 @@ GST_AI_PRO/
 
 ### Clone the Repository  
 
-git clone https://github.com/your-username/GST_AI_PRO.git  
+git clone https:https://github.com/BhavyaKavuru/smart-gst.git
 cd GST_AI_PRO  
 
 ### Install Dependencies  
