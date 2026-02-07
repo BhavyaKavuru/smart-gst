@@ -76,7 +76,9 @@ streamlit run app.py
 - Connect your GitHub repo and select the chatbot folder (app.py)  
 - Add your dependencies from requirements.txt  
 - Deploy the app — Streamlit will build and serve it automatically  
-- 🔗 The deployed app link will appear in your Streamlit dashboard 
+- 🔗 The deployed app link will appear in your Streamlit dashboard
+
+- ### Localhost
 
 ▶️ Run on Localhost Using Flask
 
