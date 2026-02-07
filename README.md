@@ -70,7 +70,7 @@ streamlit run app.py
 
 ## 🚀 Deployment  
 
-### 2️⃣ Streamlit Cloud  
+### Streamlit Cloud  
 - Sign in at **[Streamlit Cloud](https://streamlit.io/cloud)**  
 - Create a *New App*  
 - Connect your GitHub repo and select the chatbot folder (app.py)  
@@ -78,6 +78,47 @@ streamlit run app.py
 - Deploy the app — Streamlit will build and serve it automatically  
 - 🔗 The deployed app link will appear in your Streamlit dashboard 
 
+▶️ Run on Localhost Using Flask
+
+If your project uses Flask, follow these steps:
+
+Install Dependencies
+pip install -r requirements.txt
+
+Run Flask App
+python app.py
+
+
+or
+
+flask run
+
+Open in Browser
+http://127.0.0.1:5000
+
+
+or
+
+http://localhost:5000
+
+
+(Default Flask port: 5000)
+
+▶️ Run on Localhost Using FastAPI
+
+If your project uses FastAPI, follow these steps:
+
+Install Dependencies
+pip install -r requirements.txt
+
+Run FastAPI Server
+uvicorn main:app --reload
+
+
+(Replace main with your file name if different)
+
+Open in Browser
+http://127.0.0.1:8000
 ## 🛠️ Tech Stack  
 
 - Python 3.9+  
