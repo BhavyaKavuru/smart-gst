@@ -124,7 +124,7 @@ http://127.0.0.1:8000
 
 ## 🚀 installaton commands
 
-git clone https://github.com/your-username/GST_AI_PRO.git
+git clone https://github.com/BhavyaKavuru/smart-gst.git
 
 cd GST_AI_PRO
 
