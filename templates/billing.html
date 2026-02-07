@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart GST AI Billing</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <select id="langSelect" onchange="changeLanguage()" style="position:fixed; top:15px; right:15px; z-index:9999;">
+  <option value="en">English</option>
+  <option value="te">తెలుగు</option>
+  <option value="hi">हिंदी</option>
+</select>
+
+<h1 id="titleText" class="titleText">Smart GST AI Billing System</h1>
+
+<div class="main">
+
+  <!-- LEFT: PRODUCT FINDER -->
+  <div class="card">
+  <h2 id="finderTitle">Product Finder</h2>
+
+  <img id="productImg"
+       src="/static/logos/default.png"
+       style="width:140px;height:140px;border-radius:12px;object-fit:cover;">
+
+  <h3 id="gstText">GST: --%</h3>
+
+  <select id="productSelect" onchange="updateProduct()">
+    <option value="">Select Product</option>
+    <option value="rice">Rice</option>
+    <option value="car">Car</option>
+    <option value="bike">Bike</option>
+    <option value="mobile">Mobile</option>
+  </select>
+</div>
+  <!-- RIGHT: GST TREND GRAPH -->
+  <div class="card">
+    <h2 id="trendTitle">Yearly GST Trends</h2>
+    <canvas id="gstChart"></canvas>
+  </div>
+
+</div>
+
+<!-- ADD PRODUCT -->
+<div class="card full">
+  <h2 id="addTitle">Add Product</h2>
+  <input id="productInput" placeholder="product name">
+  <input id="priceInput" placeholder="price" type="number">
+  <button onclick="addItem()">Add to Cart</button>
+</div>
+
+<!-- CART -->
+<div class="card full">
+  <h2 id="CartTitle">cart</h2>
+  <table id="cartTable">
+    <tr>
+      <th>Logo</th><th>Product</th><th>Price</th>
+      <th>GST%</th><th>GST Amt</th><th>Total</th>
+    </tr>
+  </table>
+  <h3 id="grandTotal">Grand Total: ₹0</h3>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

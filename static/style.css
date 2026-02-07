@@ -1,0 +1,40 @@
+body {
+  background:#062c2c;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+
+.title {
+  color:cyan;
+  text-shadow:0 0 10px cyan;
+}
+
+.main {
+  display:flex;
+  justify-content:space-around;
+  margin:20px;
+}
+
+.card {
+  background:#0a3d3d;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 0 20px cyan;
+  width:40%;
+}
+
+.card img {
+  width:150px;
+}
+
+.full {
+  width:85%;
+  margin:20px auto;
+}
+
+input,select,button {
+  padding:10px;
+  margin:10px;
+  border-radius:8px;
+}

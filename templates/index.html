@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GST AI Pro</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="header">
+  <h1 id="title">GST AI Pro Dashboard</h1>
+  <select id="language" onchange="changeLanguage()">
+    <option value="en">English</option>
+    <option value="te">తెలుగు</option>
+    <option value="hi">हिंदी</option>
+  </select>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2 id="finderTitle">Product Finder</h2>
+    <input id="productInput" placeholder="Enter product">
+    <button onclick="loadTrends()">Search</button>
+    <img id="logo" class="logo">
+  </div>
+
+  <div class="card">
+    <h2 id="trendTitle">Yearly GST Trends</h2>
+    <canvas id="trendChart"></canvas>
+  </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
