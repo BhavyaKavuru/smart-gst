@@ -78,7 +78,7 @@ streamlit run app.py
 - Deploy the app — Streamlit will build and serve it automatically  
 - 🔗 The deployed app link will appear in your Streamlit dashboard
 
-- ### Localhost
+ #### 🚀 Localhost
 
 ▶️ Run on Localhost Using Flask
 
