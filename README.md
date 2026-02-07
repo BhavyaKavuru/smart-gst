@@ -70,22 +70,13 @@ streamlit run app.py
 
 ## 🚀 Deployment  
 
-### Streamlit Cloud  
-
-1. Sign in to Streamlit Cloud  
-2. Create New App  
-3. Select repository  
-4. Choose app.py  
-5. Deploy  
-
-### Hugging Face Spaces  
-
-1. Create New Space  
-2. Select Streamlit SDK  
-3. Upload files  
-4. Run streamlit run app.py  
-
----
+### 2️⃣ Streamlit Cloud  
+- Sign in at **[Streamlit Cloud](https://streamlit.io/cloud)**  
+- Create a *New App*  
+- Connect your GitHub repo and select the chatbot folder (app.py)  
+- Add your dependencies from requirements.txt  
+- Deploy the app — Streamlit will build and serve it automatically  
+- 🔗 The deployed app link will appear in your Streamlit dashboard 
 
 ## 🛠️ Tech Stack  
 
