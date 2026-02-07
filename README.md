@@ -121,6 +121,17 @@ uvicorn main:app --reload
 
 Open in Browser
 http://127.0.0.1:8000
+
+## 🚀 installaton commands
+
+git clone https://github.com/your-username/GST_AI_PRO.git
+cd GST_AI_PRO
+python -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+python app.py
+
 ## 🛠️ Tech Stack  
 
 - Python 3.9+  
